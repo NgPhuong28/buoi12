@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .contain{
+            padding: 50px;
+        }
+        .contain .title{
+            text-align: center;
+        }
+        .product{
+            display: flex;
+        }
+        .products .box{
+            width: 25%;
+            height: 200px;
+            transition: 0.5s;
+            padding: 20px 10px;
+        }
+        .product .box:hover{
+            transform: translateY(-15px);
+        }
+        .products .box img{
+            width: 100%;
+        }
+        .products .box .content{
+            text-align: center;
+            padding: 20px 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="contain">
+        <div class="title">
+            <h1>Trending products</h1>
+
+        </div>
+        <div class="products">
+            <div class="box">
+                <img src="image/img3.png" alt="">
+                <div class="content">
+                    <h1>Fossil</h1>
+                    <p>Bering Rose Gold steel Mesh</p>
+                    <p>$100.000-$350.000</p>
+                    <p>
+                        <span>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+                        <span>(1 review)</span>
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/img2.png" alt="">
+                <div class="content">
+                    <h1>Fossil</h1>
+                    <p>Bering Rose Gold steel Mesh</p>
+                    <p>$200.000-$450.000</p>
+                    <p>
+                        <span>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+                        <span>(1 review)</span>
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
